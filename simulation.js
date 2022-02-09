@@ -97,7 +97,7 @@ statsG.append("text")
 update()
 
 // add a new node every two seconds
-var twoSeconds = d3.interval(everyInterval, 1000);
+var twoSeconds = d3.interval(everyInterval, 500);
 
 function everyInterval () {
     newNode += 1;
